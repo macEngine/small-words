@@ -2,7 +2,7 @@
 title: "typography"
 date: 2026-11-07T10:03:00+08:00
 tags: ["noun", "jobs-stanford-2005"]
-speech: "jobs-stanford-2005"
+source: "jobs-stanford-2005"
 timestamp: "04:25"
 gloss: "字体排印；文字的视觉设计"
 summary: "字体排印；文字的视觉设计 — It was the first computer with beautiful typography.…"
@@ -20,7 +20,7 @@ summary: "字体排印；文字的视觉设计 — It was the first computer wit
 
 > It was the first computer with beautiful typography.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/speeches/jobs-stanford-2005/) · [视频 04:25](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=265s)
+> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 04:25](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=265s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

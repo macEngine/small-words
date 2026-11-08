@@ -1,7 +1,6 @@
 ---
 title: "Steve Jobs — Stanford Commencement Address (2005)"
 date: 2026-11-07
-tags: ["speech"]
 summary: "乔布斯 2005 年斯坦福毕业演讲：三个故事——connecting the dots、love and loss、death。"
 ---
 
@@ -22,4 +21,4 @@ summary: "乔布斯 2005 年斯坦福毕业演讲：三个故事——connecting
 
 ## 本站收录的词
 
-{{< speech-words >}}
+{{< source-words >}}

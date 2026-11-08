@@ -93,3 +93,10 @@ mark { background: #fff5df; color: inherit; padding: 0 .1em; }
   .entry { padding: 1.2rem 1.2rem 1rem; }
   .site-title { font-size: 1.9rem; }
 }
+
+/* tables (近义词辨析) */
+.entry-content table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.4rem; font-size: .92rem; line-height: 1.6; }
+.entry-content th, .entry-content td { border: 1px solid var(--border); padding: .4rem .6rem; text-align: left; vertical-align: top; }
+.entry-content th { background: var(--code); font-family: var(--sans); font-weight: 600; }
+.entry-content tr:nth-child(even) td { background: #faf9f6; }
+.entry-content .levels code { background: #fff5df; border: 1px solid #e8d9b8; }

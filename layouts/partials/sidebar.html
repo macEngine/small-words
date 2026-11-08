@@ -26,10 +26,10 @@
 </div>
 
 <div class="widget">
-  <h3>演讲</h3>
+  <h3>来源</h3>
   <ul class="plain">
-  {{ range where site.RegularPages "Section" "speeches" }}
-    {{ $n := len (where $words "Params.speech" .File.ContentBaseName) }}
+  {{ range where site.RegularPages "Section" "sources" }}
+    {{ $n := len (where $words "Params.source" .File.ContentBaseName) }}
     <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="count">{{ $n }}</span></li>
   {{ end }}
   </ul>

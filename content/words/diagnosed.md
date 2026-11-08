@@ -2,7 +2,7 @@
 title: "diagnosed"
 date: 2026-11-07T10:05:00+08:00
 tags: ["verb", "jobs-stanford-2005"]
-speech: "jobs-stanford-2005"
+source: "jobs-stanford-2005"
 timestamp: "09:45"
 gloss: "被诊断出"
 summary: "被诊断出 — About a year ago I was diagnosed with cancer.…"
@@ -20,7 +20,7 @@ summary: "被诊断出 — About a year ago I was diagnosed with cancer.…"
 
 > About a year ago I was diagnosed with cancer.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/speeches/jobs-stanford-2005/) · [视频 09:45](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=585s)
+> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 09:45](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=585s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

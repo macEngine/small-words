@@ -36,9 +36,9 @@ summaryLength = 40
   url = '/words/'
   weight = 10
 [[menu.main]]
-  identifier = 'speeches'
-  name = '演讲'
-  url = '/speeches/'
+  identifier = 'sources'
+  name = '来源'
+  url = '/sources/'
   weight = 20
 [[menu.main]]
   identifier = 'tags'
@@ -60,3 +60,6 @@ summaryLength = 40
   name = 'RSS'
   url = '/index.xml'
   weight = 60
+
+[markup.goldmark.renderer]
+  unsafe = true   # 内容是自己写的 Markdown，允许少量内嵌 HTML（等级标签）

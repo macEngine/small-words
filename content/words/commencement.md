@@ -2,7 +2,7 @@
 title: "commencement"
 date: 2026-11-07T10:00:00+08:00
 tags: ["noun", "jobs-stanford-2005"]
-speech: "jobs-stanford-2005"
+source: "jobs-stanford-2005"
 timestamp: "00:20"
 gloss: "毕业典礼；开端"
 summary: "毕业典礼；开端 — I am honored to be with you today at your commencement from one of the…"
@@ -21,7 +21,7 @@ summary: "毕业典礼；开端 — I am honored to be with you today at your co
 
 > I am honored to be with you today at your commencement from one of the finest universities in the world.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/speeches/jobs-stanford-2005/) · [视频 00:20](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=20s)
+> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 00:20](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=20s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

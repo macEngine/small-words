@@ -2,7 +2,7 @@
 title: "intuition"
 date: 2026-11-07T10:08:00+08:00
 tags: ["noun", "jobs-stanford-2005"]
-speech: "jobs-stanford-2005"
+source: "jobs-stanford-2005"
 timestamp: "12:20"
 gloss: "直觉"
 summary: "直觉 — And most important, have the courage to follow your heart and intuitio…"
@@ -20,7 +20,7 @@ summary: "直觉 — And most important, have the courage to follow your heart a
 
 > And most important, have the courage to follow your heart and intuition.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/speeches/jobs-stanford-2005/) · [视频 12:20](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=740s)
+> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 12:20](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=740s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 
