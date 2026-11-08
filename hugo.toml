@@ -1,6 +1,6 @@
 baseURL = 'https://macengine.github.io/small-words/'
 locale = 'zh-CN'
-title = '小词'
+title = '外刊小词'
 enableRobotsTXT = true
 capitalizeListTitles = false
 summaryLength = 40
@@ -21,7 +21,7 @@ summaryLength = 40
   privacyEnhanced = true           # 用 youtube-nocookie.com 嵌入
 
 [params]
-  subtitle = '从公开演讲里学单词'
+  subtitle = '绵绵用力，久久为功'
   description = '从公开演讲里学单词：每词一页，附原句和官方视频时间戳。'
   mainSections = ['words']
 
