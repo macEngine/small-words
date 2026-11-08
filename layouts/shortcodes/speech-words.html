@@ -1,0 +1,12 @@
+{{- /* 列出 params.speech 等于当前演讲页文件名的所有单词页 */ -}}
+{{- $speech := .Page.File.ContentBaseName -}}
+{{- $words := where (where .Site.RegularPages "Section" "words") "Params.speech" $speech -}}
+{{- with $words }}
+<ul>
+{{- range sort . "Params.timestamp" }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.timestamp }} <small>({{ . }})</small>{{ end }}{{ with .Params.gloss }} — {{ . }}{{ end }}</li>
+{{- end }}
+</ul>
+{{- else }}
+<p>暂无。</p>
+{{- end }}
