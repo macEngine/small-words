@@ -1,8 +1,7 @@
 ---
 title: "dispensable"
 date: 2026-06-24T09:00:00+08:00
-tags: ["托福", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["托福", "GRE"]
 gloss: "可有可无的、非必需的、可被舍弃的"
 summary: "可有可无的、非必需的、可被舍弃的"
 ---

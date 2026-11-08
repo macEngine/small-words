@@ -23,8 +23,7 @@ layouts/shortcodes/todo.html
 words 仓库里每篇文章是一个目录 `YYMMDD_<标题>/`，里面每词一个 `每日一词：<word>.md`（和公众号 gzh 用同一份 Markdown）：
 
 ```bash
-python3 scripts/import_words.py "/path/to/260624_How the Iran Deal ..." \
-  --source-slug nyt-2026-06-24-iran-deal --source-title "How the Iran Deal ..." --source-note "《纽约时报》播客"
+python3 scripts/import_words.py "/path/to/260624_How the Iran Deal ..."        # 默认每词独立一篇
 ```
 
 脚本只去掉公众号补图占位 `![]()`，把等级标签转成 tags，并从「解析」里抽一句中文释义作 gloss（抽不到就手动补）。

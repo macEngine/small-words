@@ -1,8 +1,7 @@
 ---
 title: "rebuke"
 date: 2026-06-24T09:08:00+08:00
-tags: ["托福", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["托福", "GRE"]
 gloss: "（正式而严厉地）指责、谴责、训斥"
 summary: "（正式而严厉地）指责、谴责、训斥"
 ---

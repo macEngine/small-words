@@ -1,8 +1,7 @@
 ---
 title: "lash out"
 date: 2026-06-24T09:03:00+08:00
-tags: ["六级", "托福", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["六级", "托福", "GRE"]
 gloss: "猛烈抨击、突然发难、言语或行动上的激烈攻击"
 summary: "猛烈抨击、突然发难、言语或行动上的激烈攻击"
 ---

@@ -1,8 +1,7 @@
 ---
 title: "perpetuate"
 date: 2026-06-24T09:07:00+08:00
-tags: ["托福", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["托福", "GRE"]
 gloss: "使永久存在、使延续不衰"
 summary: "使永久存在、使延续不衰"
 ---

@@ -1,8 +1,7 @@
 ---
 title: "ostensibly"
 date: 2026-06-24T09:05:00+08:00
-tags: ["托福", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["托福", "GRE"]
 gloss: "表面上、看似（其实未必如此）"
 summary: "表面上、看似（其实未必如此）"
 ---

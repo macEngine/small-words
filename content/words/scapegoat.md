@@ -1,8 +1,7 @@
 ---
 title: "scapegoat"
 date: 2026-06-24T09:09:00+08:00
-tags: ["六级", "托福", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["六级", "托福"]
 gloss: "替罪羊、代人受过者"
 summary: "替罪羊、代人受过者"
 ---

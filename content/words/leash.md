@@ -1,8 +1,7 @@
 ---
 title: "leash"
 date: 2026-06-24T09:04:00+08:00
-tags: ["六级", "托福", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["六级", "托福"]
 gloss: "牵绳；严加管束"
 summary: "牵绳；严加管束"
 ---

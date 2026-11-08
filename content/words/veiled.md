@@ -1,8 +1,7 @@
 ---
 title: "veiled"
 date: 2026-06-24T09:12:00+08:00
-tags: ["六级", "托福", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["六级", "托福"]
 gloss: "含蓄的、隐晦的"
 summary: "含蓄的、隐晦的"
 ---

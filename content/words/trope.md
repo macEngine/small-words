@@ -1,8 +1,7 @@
 ---
 title: "trope"
 date: 2026-06-24T09:11:00+08:00
-tags: ["专八", "GRE", "nyt-2026-06-24-iran-deal"]
-source: "nyt-2026-06-24-iran-deal"
+tags: ["专八", "GRE"]
 gloss: "老套的母题、陈词滥调"
 summary: "老套的母题、陈词滥调"
 ---

@@ -3,8 +3,10 @@
 导入成 Hugo 内容：content/words/<slug>.md × N + content/sources/<source-slug>.md。
 
 用法:
-    python3 scripts/import_words.py "<目录>" [--source-slug nyt-2026-06-24-iran-deal]
-        [--source-title "How the Iran Deal ..."] [--source-note "《纽约时报》播客"] [--force]
+    python3 scripts/import_words.py "<目录>"                 # 默认：每词独立一篇，不建来源页、不加链接
+    python3 scripts/import_words.py "<目录>" --source-slug xxx --source-title "..." [--source-note "..."]
+                                                           # 可选：另建一个来源页并把词挂上去
+    [--force] 覆盖已存在的文件
 
 正文原样搬运（和公众号 gzh 用的是同一份 Markdown），只做三件事：
   1. 去掉空图占位 `![]()`（公众号补图用的，网站不需要）
@@ -43,11 +45,11 @@ def main():
         sys.exit(f"目录名要像 260624_<标题>: {base}")
     date = f"20{m[1]}-{m[2]}-{m[3]}"
     src_title = a.source_title or m[4].strip()
-    src_slug = a.source_slug or f"nyt-{date}-{slugify(src_title)[:40].rstrip('-')}"
+    src_slug = a.source_slug            # 不给就不建来源页、单词页也不挂 source（默认：每词独立一篇）
 
     files = sorted(f for f in os.listdir(d) if f.endswith(".md"))
     out_words = os.path.join(ROOT, "content", "words")
-    out_src = os.path.join(ROOT, "content", "sources", src_slug + ".md")
+    out_src = os.path.join(ROOT, "content", "sources", (src_slug or "x") + ".md")
     written = []
     for i, f in enumerate(files):
         tm = TITLE_RE.match(f)
@@ -66,13 +68,13 @@ def main():
         for r in GLOSS_RES:
             g = r.search(body)
             if g: gloss = g.group(1); break
-        tags = levels + [src_slug]
+        tags = levels + ([src_slug] if src_slug else [])
         fm = [
             "---",
             f"title: {yaml_str(word)}",
             f"date: {date}T09:{i:02d}:00+08:00",
             "tags: [" + ", ".join(yaml_str(t) for t in tags) + "]",
-            f"source: {yaml_str(src_slug)}",
+            *([f"source: {yaml_str(src_slug)}"] if src_slug else []),
             f"gloss: {yaml_str(gloss)}",
             f"summary: {yaml_str(gloss)}",
             "---", "",
@@ -84,7 +86,7 @@ def main():
         written.append((word, gloss))
         print(f"  {word:14s} gloss={gloss or '(空，手动补)'}")
 
-    if not os.path.exists(out_src) or a.force:
+    if src_slug and (not os.path.exists(out_src) or a.force):
         open(out_src, "w", encoding="utf-8").write(f'''---
 title: {yaml_str(src_title)}
 date: {date}
@@ -100,7 +102,7 @@ summary: {yaml_str(a.source_note + " · " + date)}
 {{{{< source-words >}}}}
 ''')
         print("source page:", out_src)
-    print(f"done: {len(written)} words -> {src_slug}")
+    print(f"done: {len(written)} words" + (f" -> {src_slug}" if src_slug else " (独立页，无来源)"))
 
 if __name__ == "__main__":
     main()
