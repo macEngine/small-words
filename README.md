@@ -10,7 +10,6 @@
 
 ```
 content/words/<word>.md          # 每词一页
-content/sources/<source>.md      # 每个来源（文章/演讲）一页，自动列出收录的词
 scripts/import_words.py          # 从 words 仓库的文章目录批量导入
 layouts/                         # 模板（两栏 + 侧栏归档/演讲/标签）
 assets/css/main.css  assets/js/site.js

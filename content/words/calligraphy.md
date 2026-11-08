@@ -1,8 +1,7 @@
 ---
 title: "calligraphy"
 date: 2026-11-07T10:02:00+08:00
-tags: ["noun", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["noun"]
 timestamp: "03:05"
 gloss: "书法；美术字"
 summary: "书法；美术字 — Reed College at that time offered perhaps the best calligraphy instruc…"
@@ -20,7 +19,7 @@ summary: "书法；美术字 — Reed College at that time offered perhaps the b
 
 > Reed College at that time offered perhaps the best calligraphy instruction in the country.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 03:05](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=185s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 03:05](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=185s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

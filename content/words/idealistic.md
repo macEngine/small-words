@@ -1,8 +1,7 @@
 ---
 title: "idealistic"
 date: 2026-11-07T10:09:00+08:00
-tags: ["adjective", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["adjective"]
 timestamp: "13:00"
 gloss: "理想主义的"
 summary: "理想主义的 — It was sort of like Google in paperback form, 35 years before Google c…"
@@ -20,7 +19,7 @@ summary: "理想主义的 — It was sort of like Google in paperback form, 35 y
 
 > It was sort of like Google in paperback form, 35 years before Google came along: it was idealistic, and overflowing with neat tools and great notions.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 13:00](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=780s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 13:00](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=780s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

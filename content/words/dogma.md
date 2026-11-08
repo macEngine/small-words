@@ -1,8 +1,7 @@
 ---
 title: "dogma"
 date: 2026-11-07T10:06:00+08:00
-tags: ["noun", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["noun"]
 timestamp: "12:05"
 gloss: "教条；不容质疑的信条"
 summary: "教条；不容质疑的信条 — Don't be trapped by dogma — which is living with the results of other …"
@@ -20,7 +19,7 @@ summary: "教条；不容质疑的信条 — Don't be trapped by dogma — which
 
 > Don't be trapped by dogma — which is living with the results of other people's thinking.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 12:05](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=725s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 12:05](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=725s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

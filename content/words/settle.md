@@ -1,8 +1,7 @@
 ---
 title: "settle"
 date: 2026-11-07T10:07:00+08:00
-tags: ["verb", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["verb"]
 timestamp: "08:25"
 gloss: "将就；凑合着接受"
 summary: "将就；凑合着接受 — So keep looking until you find it. Don't settle.…"
@@ -20,7 +19,7 @@ settle 本义是"安定下来"（*settle down*、*settle in a city*）。"安定
 
 > So keep looking until you find it. Don't settle.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 08:25](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=505s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 08:25](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=505s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

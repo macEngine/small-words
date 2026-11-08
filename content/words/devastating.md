@@ -1,8 +1,7 @@
 ---
 title: "devastating"
 date: 2026-11-07T10:04:00+08:00
-tags: ["adjective", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["adjective"]
 timestamp: "06:55"
 gloss: "毁灭性的；令人崩溃的"
 summary: "毁灭性的；令人崩溃的 — What had been the focus of my entire adult life was gone, and it was d…"
@@ -20,7 +19,7 @@ summary: "毁灭性的；令人崩溃的 — What had been the focus of my entir
 
 > What had been the focus of my entire adult life was gone, and it was devastating.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 06:55](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=415s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 06:55](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=415s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

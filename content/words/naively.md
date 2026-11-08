@@ -1,8 +1,7 @@
 ---
 title: "naively"
 date: 2026-11-07T10:01:00+08:00
-tags: ["adverb", "jobs-stanford-2005"]
-source: "jobs-stanford-2005"
+tags: ["adverb"]
 timestamp: "01:40"
 gloss: "天真地；想当然地"
 summary: "天真地；想当然地 — And 17 years later I did go to college. But I naively chose a college …"
@@ -20,7 +19,7 @@ summary: "天真地；想当然地 — And 17 years later I did go to college. B
 
 > And 17 years later I did go to college. But I naively chose a college that was almost as expensive as Stanford.
 >
-> — Steve Jobs, [Stanford Commencement Address, 2005](/sources/jobs-stanford-2005/) · [视频 01:40](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=100s)
+> — Steve Jobs, Stanford Commencement Address, 2005 · [视频 01:40](https://www.youtube.com/watch?v=UF8uR6Z6KLc&t=100s)
 
 {{< todo >}}时间戳为估算值，待对照视频核对。{{< /todo >}}
 

@@ -3,7 +3,6 @@
   <p class="entry-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time></p>
   <div class="entry-content">{{ .Content }}</div>
   <footer class="entry-footer">
-    {{ with .Params.source }}{{ with site.GetPage (printf "/sources/%s" .) }}来源：<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}{{ end }}
     {{ with .GetTerms "tags" }} 标签：{{ range $i, $t := . }}{{ if $i }}、{{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.Title }}</a>{{ end }}{{ end }}
   </footer>
 </article>
