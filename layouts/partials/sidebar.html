@@ -1,6 +1,6 @@
 {{ $words := where site.RegularPages "Section" "words" }}
 <div class="widget widget-search">
-  <form action="{{ "/search/" | relURL }}" method="get" role="search">
+  <form action="{{ (site.GetPage "/search").RelPermalink }}" method="get" role="search">
     <input type="search" name="q" placeholder="搜索本站" aria-label="搜索本站">
     <button type="submit">搜索</button>
   </form>
