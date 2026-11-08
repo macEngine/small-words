@@ -10,8 +10,9 @@
   1. 去掉空图占位 `![]()`（公众号补图用的，网站不需要）
   2. 等级标签行（`托福` `GRE`）→ 加 class 方便上色，并转成 tags
   3. 从「解析」里抽一句中文释义做 gloss（抽不到就留空，手动补）
+  date = 发布到站点的日期（新发的排前面）；文章原日期存 article_date
 """
-import argparse, os, re, sys, unicodedata
+import argparse, datetime, os, re, sys, unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -30,6 +31,7 @@ def yaml_str(s):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("dir")
+    ap.add_argument("--date", help="站点发布日期 YYYY-MM-DD（默认今天）；文章原日期取目录名，存 article_date")
     ap.add_argument("--force", action="store_true")
     a = ap.parse_args()
 
@@ -38,7 +40,8 @@ def main():
     m = re.match(r"^(\d{2})(\d{2})(\d{2})_(.+)$", base)
     if not m:
         sys.exit(f"目录名要像 260624_<标题>: {base}")
-    date = f"20{m[1]}-{m[2]}-{m[3]}"
+    article_date = f"20{m[1]}-{m[2]}-{m[3]}"
+    date = a.date or datetime.date.today().isoformat()
 
     files = sorted(f for f in os.listdir(d) if f.endswith(".md"))
     out_words = os.path.join(ROOT, "content", "words")
@@ -65,6 +68,7 @@ def main():
             "---",
             f"title: {yaml_str(word)}",
             f"date: {date}T09:{i:02d}:00+08:00",
+            f"article_date: {article_date}",
             "tags: [" + ", ".join(yaml_str(t) for t in tags) + "]",
             f"gloss: {yaml_str(gloss)}",
             f"summary: {yaml_str(gloss)}",

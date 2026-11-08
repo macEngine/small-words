@@ -1,6 +1,7 @@
 ---
 title: "slander"
-date: 2026-06-24T09:10:00+08:00
+date: 2026-11-08T15:10:00+08:00
+article_date: 2026-06-24
 tags: ["托福", "GRE"]
 gloss: "诽谤、诋毁"
 summary: "诽谤、诋毁"

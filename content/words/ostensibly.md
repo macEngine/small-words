@@ -1,6 +1,7 @@
 ---
 title: "ostensibly"
-date: 2026-06-24T09:05:00+08:00
+date: 2026-11-08T15:05:00+08:00
+article_date: 2026-06-24
 tags: ["托福", "GRE"]
 gloss: "表面上、看似（其实未必如此）"
 summary: "表面上、看似（其实未必如此）"

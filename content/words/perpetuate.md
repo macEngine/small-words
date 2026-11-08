@@ -1,6 +1,7 @@
 ---
 title: "perpetuate"
-date: 2026-06-24T09:07:00+08:00
+date: 2026-11-08T15:07:00+08:00
+article_date: 2026-06-24
 tags: ["托福", "GRE"]
 gloss: "使永久存在、使延续不衰"
 summary: "使永久存在、使延续不衰"
