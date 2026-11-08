@@ -1,5 +1,6 @@
 ---
-title: "calligraphy"
+title: "外刊每日一词：calligraphy"
+word: "calligraphy"
 date: 2026-11-07T10:02:00+08:00
 tags: ["noun"]
 timestamp: "03:05"

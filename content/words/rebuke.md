@@ -1,5 +1,6 @@
 ---
-title: "rebuke"
+title: "外刊每日一词：rebuke"
+word: "rebuke"
 date: 2026-11-08T15:08:00+08:00
 article_date: 2026-06-24
 tags: ["托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "（正式而严厉地）指责、谴责、训斥"
 summary: "（正式而严厉地）指责、谴责、训斥"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/950859182798.png)
 
 **rebuke** ⭐ 英 /rɪˈbjuːk/ 美 /rɪˈbjuːk/
 <p class="levels"><code>托福</code> <code>GRE</code></p>

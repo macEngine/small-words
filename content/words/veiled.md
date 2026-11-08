@@ -1,5 +1,6 @@
 ---
-title: "veiled"
+title: "外刊每日一词：veiled"
+word: "veiled"
 date: 2026-11-08T15:12:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "含蓄的、隐晦的"
 summary: "含蓄的、隐晦的"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/1131526920168.png)
 
 **veiled** 英 /veɪld/ 美 /veɪld/
 <p class="levels"><code>六级</code> <code>托福</code></p>

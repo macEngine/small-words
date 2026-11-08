@@ -1,5 +1,6 @@
 ---
-title: "idealistic"
+title: "外刊每日一词：idealistic"
+word: "idealistic"
 date: 2026-11-07T10:09:00+08:00
 tags: ["adjective"]
 timestamp: "13:00"

@@ -15,7 +15,7 @@
       {{ range $year.Pages.GroupByDate "2006.01" }}
         <li><details><summary>{{ .Key }} <span class="count">{{ len .Pages }}</span></summary>
           <ul class="archive-words">
-          {{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}
+          {{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Params.word | default .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}
           </ul>
         </details></li>
       {{ end }}

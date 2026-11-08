@@ -1,5 +1,6 @@
 ---
-title: "devastating"
+title: "外刊每日一词：devastating"
+word: "devastating"
 date: 2026-11-07T10:04:00+08:00
 tags: ["adjective"]
 timestamp: "06:55"

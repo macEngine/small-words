@@ -1,5 +1,6 @@
 ---
-title: "outcast"
+title: "外刊每日一词：outcast"
+word: "outcast"
 date: 2026-11-08T15:06:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "被社会抛弃的人、流浪者、弃儿"
 summary: "被社会抛弃的人、流浪者、弃儿"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/7778654331458.png)
 
 **outcast** ⭐ 英 /ˈaʊtkɑːst/ 美 /ˈaʊtkæst/
 <p class="levels"><code>六级</code> <code>托福</code></p>

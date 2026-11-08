@@ -1,5 +1,6 @@
 ---
-title: "naively"
+title: "外刊每日一词：naively"
+word: "naively"
 date: 2026-11-07T10:01:00+08:00
 tags: ["adverb"]
 timestamp: "01:40"

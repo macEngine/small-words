@@ -1,5 +1,6 @@
 ---
-title: "scapegoat"
+title: "外刊每日一词：scapegoat"
+word: "scapegoat"
 date: 2026-11-08T15:09:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "替罪羊、代人受过者"
 summary: "替罪羊、代人受过者"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/7236376128204.png)
 
 **scapegoat** 英 /ˈskeɪpɡəʊt/ 美 /ˈskeɪpɡoʊt/
 <p class="levels"><code>六级</code> <code>托福</code></p>

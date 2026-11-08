@@ -1,5 +1,6 @@
 ---
-title: "flex"
+title: "外刊每日一词：flex"
+word: "flex"
 date: 2026-11-08T15:02:00+08:00
 article_date: 2026-06-24
 tags: ["四级", "六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "炫耀（实力、权势）、秀肌肉"
 summary: "炫耀（实力、权势）、秀肌肉"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/1915990222153.png)
 
 **flex** ⭐ 英 /fleks/ 美 /fleks/
 <p class="levels"><code>四级</code> <code>六级</code> <code>托福</code></p>

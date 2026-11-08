@@ -16,6 +16,7 @@ import argparse, datetime, os, re, sys, unicodedata
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+TITLE_PREFIX = "外刊每日一词："
 TITLE_RE = re.compile(r"^(?:《[^》]+》)?每日一词[:：](.+)\.md$")
 GLOSS_RES = [re.compile(r"意思是[“\"]([^”\"]+)[”\"]"), re.compile(r"指[“\"]([^”\"]+)[”\"]")]
 LEVEL_RE = re.compile(r"^(?:`[^`]+`[ \t]*)+$", re.M)
@@ -66,7 +67,8 @@ def main():
         tags = levels
         fm = [
             "---",
-            f"title: {yaml_str(word)}",
+            f"title: {yaml_str(TITLE_PREFIX + word)}",
+            f"word: {yaml_str(word)}",
             f"date: {date}T09:{i:02d}:00+08:00",
             f"article_date: {article_date}",
             "tags: [" + ", ".join(yaml_str(t) for t in tags) + "]",

@@ -1,5 +1,6 @@
 ---
-title: "ostensibly"
+title: "外刊每日一词：ostensibly"
+word: "ostensibly"
 date: 2026-11-08T15:05:00+08:00
 article_date: 2026-06-24
 tags: ["托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "表面上、看似（其实未必如此）"
 summary: "表面上、看似（其实未必如此）"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/411554702950.png)
 
 **ostensibly** 英 /ɒˈstensəbli/ 美 /ɑːˈstensəbli/
 <p class="levels"><code>托福</code> <code>GRE</code></p>

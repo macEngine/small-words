@@ -1,5 +1,6 @@
 ---
-title: "intuition"
+title: "外刊每日一词：intuition"
+word: "intuition"
 date: 2026-11-07T10:08:00+08:00
 tags: ["noun"]
 timestamp: "12:20"

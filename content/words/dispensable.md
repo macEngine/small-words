@@ -1,5 +1,6 @@
 ---
-title: "dispensable"
+title: "外刊每日一词：dispensable"
+word: "dispensable"
 date: 2026-11-08T15:00:00+08:00
 article_date: 2026-06-24
 tags: ["托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "可有可无的、非必需的、可被舍弃的"
 summary: "可有可无的、非必需的、可被舍弃的"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/2178138038643.png)
 
 **dispensable** 英 /dɪˈspensəbl/ 美 /dɪˈspensəbl/
 <p class="levels"><code>托福</code> <code>GRE</code></p>

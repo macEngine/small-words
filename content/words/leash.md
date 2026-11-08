@@ -1,5 +1,6 @@
 ---
-title: "leash"
+title: "外刊每日一词：leash"
+word: "leash"
 date: 2026-11-08T15:04:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "牵绳；严加管束"
 summary: "牵绳；严加管束"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/3450482436157.png)
 
 **leash** ⭐ 英 /liːʃ/ 美 /liːʃ/
 <p class="levels"><code>六级</code> <code>托福</code></p>

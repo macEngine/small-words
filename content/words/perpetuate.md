@@ -1,5 +1,6 @@
 ---
-title: "perpetuate"
+title: "外刊每日一词：perpetuate"
+word: "perpetuate"
 date: 2026-11-08T15:07:00+08:00
 article_date: 2026-06-24
 tags: ["托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "使永久存在、使延续不衰"
 summary: "使永久存在、使延续不衰"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/3637467286039.png)
 
 **perpetuate** ⭐ 英 /pəˈpetʃueɪt/ 美 /pərˈpetʃueɪt/
 <p class="levels"><code>托福</code> <code>GRE</code></p>

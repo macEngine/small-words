@@ -1,5 +1,6 @@
 ---
-title: "dogma"
+title: "外刊每日一词：dogma"
+word: "dogma"
 date: 2026-11-07T10:06:00+08:00
 tags: ["noun"]
 timestamp: "12:05"

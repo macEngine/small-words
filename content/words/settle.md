@@ -1,5 +1,6 @@
 ---
-title: "settle"
+title: "外刊每日一词：settle"
+word: "settle"
 date: 2026-11-07T10:07:00+08:00
 tags: ["verb"]
 timestamp: "08:25"

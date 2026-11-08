@@ -5,7 +5,7 @@
   <p class="gloss">共 {{ len $words }} 个词</p>
   {{ range $words.GroupByDate "2006年1月" }}
   <h2>{{ .Key }} <small class="count">{{ len .Pages }}</small></h2>
-  <ul class="plain">{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}</ul>
+  <ul class="plain">{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Params.word | default .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}</ul>
   {{ end }}
 </div>
 {{ end }}

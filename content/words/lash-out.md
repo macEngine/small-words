@@ -1,5 +1,6 @@
 ---
-title: "lash out"
+title: "外刊每日一词：lash out"
+word: "lash out"
 date: 2026-11-08T15:03:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "猛烈抨击、突然发难、言语或行动上的激烈攻击"
 summary: "猛烈抨击、突然发难、言语或行动上的激烈攻击"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/8151567194124.png)
 
 **lash out** ⭐ 英 /læʃ aʊt/ 美 /læʃ aʊt/
 <p class="levels"><code>六级</code> <code>托福</code> <code>GRE</code></p>

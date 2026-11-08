@@ -1,5 +1,6 @@
 ---
-title: "commencement"
+title: "外刊每日一词：commencement"
+word: "commencement"
 date: 2026-11-07T10:00:00+08:00
 tags: ["noun"]
 timestamp: "00:20"

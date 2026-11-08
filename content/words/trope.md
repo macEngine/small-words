@@ -1,5 +1,6 @@
 ---
-title: "trope"
+title: "外刊每日一词：trope"
+word: "trope"
 date: 2026-11-08T15:11:00+08:00
 article_date: 2026-06-24
 tags: ["专八", "GRE"]
@@ -7,6 +8,8 @@ gloss: "老套的母题、陈词滥调"
 summary: "老套的母题、陈词滥调"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/4267945118524.png)
 
 **trope** ⭐ 英 /trəʊp/ 美 /troʊp/
 <p class="levels"><code>专八</code> <code>GRE</code></p>

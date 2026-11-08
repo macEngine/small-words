@@ -1,5 +1,6 @@
 ---
-title: "diagnosed"
+title: "外刊每日一词：diagnosed"
+word: "diagnosed"
 date: 2026-11-07T10:05:00+08:00
 tags: ["verb"]
 timestamp: "09:45"

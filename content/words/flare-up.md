@@ -1,5 +1,6 @@
 ---
-title: "flare up"
+title: "外刊每日一词：flare up"
+word: "flare up"
 date: 2026-11-08T15:01:00+08:00
 article_date: 2026-06-24
 tags: ["六级", "托福"]
@@ -7,6 +8,8 @@ gloss: "（火、冲突、疾病、情绪）突然爆发、骤然加剧"
 summary: "（火、冲突、疾病、情绪）突然爆发、骤然加剧"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/1277019435245.png)
 
 **flare up** 英 /fleə(r) ʌp/ 美 /fler ʌp/
 <p class="levels"><code>六级</code> <code>托福</code></p>

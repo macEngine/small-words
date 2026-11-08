@@ -1,5 +1,6 @@
 ---
-title: "slander"
+title: "外刊每日一词：slander"
+word: "slander"
 date: 2026-11-08T15:10:00+08:00
 article_date: 2026-06-24
 tags: ["托福", "GRE"]
@@ -7,6 +8,8 @@ gloss: "诽谤、诋毁"
 summary: "诽谤、诋毁"
 ---
 ## 📖 词汇卡片
+
+![](https://blogimg.niuge6.com/i/1321767944415.png)
 
 **slander** ⭐ 英 /ˈslɑːndə(r)/ 美 /ˈslændər/
 <p class="levels"><code>托福</code> <code>GRE</code></p>

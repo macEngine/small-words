@@ -1,5 +1,6 @@
 ---
-title: "typography"
+title: "外刊每日一词：typography"
+word: "typography"
 date: 2026-11-07T10:03:00+08:00
 tags: ["noun"]
 timestamp: "04:25"
