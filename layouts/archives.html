@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="entry">
+  <h1>归档</h1>
+  {{ $words := where site.RegularPages "Section" "words" }}
+  <p class="gloss">共 {{ len $words }} 个词</p>
+  {{ range $words.GroupByDate "2006年1月" }}
+  <h2>{{ .Key }} <small class="count">{{ len .Pages }}</small></h2>
+  <ul class="plain">{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}</ul>
+  {{ end }}
+</div>
+{{ end }}

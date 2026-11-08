@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "entry.html" . }}
+{{ if eq .Section "words" }}
+<nav class="post-nav">
+  {{ with .NextInSection }}<a class="prev" href="{{ .RelPermalink }}">« {{ .Title }}</a>{{ end }}
+  {{ with .PrevInSection }}<a class="next" href="{{ .RelPermalink }}">{{ .Title }} »</a>{{ end }}
+</nav>
+{{ end }}
+{{ end }}

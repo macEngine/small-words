@@ -1,18 +1,18 @@
 baseURL = 'https://macengine.github.io/small-words/'
-languageCode = 'zh-cn'
+locale = 'zh-CN'
 title = '小词'
-theme = 'PaperMod'
 enableRobotsTXT = true
-enableEmoji = true
+capitalizeListTitles = false
+summaryLength = 40
 
 [pagination]
-  pagerSize = 20
+  pagerSize = 10
 
 [minify]
   disableXML = true
 
 [outputs]
-  home = ['HTML', 'RSS', 'JSON']   # JSON 供 PaperMod 站内搜索用
+  home = ['HTML', 'RSS', 'JSON']   # JSON = 站内搜索索引 /index.json
 
 [taxonomies]
   tag = 'tags'
@@ -21,29 +21,15 @@ enableEmoji = true
   privacyEnhanced = true           # 用 youtube-nocookie.com 嵌入
 
 [params]
-  env = 'production'
-  description = '从公开演讲里学单词：每词一页，附原句和视频时间戳。'
-  defaultTheme = 'auto'
+  subtitle = '从公开演讲里学单词'
+  description = '从公开演讲里学单词：每词一页，附原句和官方视频时间戳。'
   mainSections = ['words']
-  DateFormat = '2006-01-02'
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = false
-  ShowToc = false
-  ShowRssButtonInSectionTermList = true
 
-  [params.homeInfoParams]
-    Title = '小词'
-    Content = '从公开演讲里学单词。每个词一页：释义、原句出处、视频时间戳。先从乔布斯 2005 年斯坦福毕业演讲开始。'
-
-  [params.fuseOpts]
-    isCaseSensitive = false
-    threshold = 0.4
-    minMatchCharLength = 1
-    keys = ['title', 'summary', 'content', 'tags']
-
+[[menu.main]]
+  identifier = 'home'
+  name = '首页'
+  url = '/'
+  weight = 1
 [[menu.main]]
   identifier = 'words'
   name = '单词'
@@ -69,3 +55,8 @@ enableEmoji = true
   name = '搜索'
   url = '/search/'
   weight = 50
+[[menu.main]]
+  identifier = 'rss'
+  name = 'RSS'
+  url = '/index.xml'
+  weight = 60

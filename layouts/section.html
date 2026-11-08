@@ -1,0 +1,6 @@
+{{ define "main" }}
+<div class="entry page-head"><h1>{{ .Title }}</h1>{{ .Content }}</div>
+{{ $p := .Paginate .RegularPages }}
+{{ range $p.Pages }}{{ partial "entry.html" . }}{{ end }}
+{{ template "_internal/pagination.html" . }}
+{{ end }}

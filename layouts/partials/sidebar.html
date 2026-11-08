@@ -1,0 +1,43 @@
+{{ $words := where site.RegularPages "Section" "words" }}
+<div class="widget widget-search">
+  <form action="{{ "/search/" | relURL }}" method="get" role="search">
+    <input type="search" name="q" placeholder="搜索本站" aria-label="搜索本站">
+    <button type="submit">搜索</button>
+  </form>
+</div>
+
+<div class="widget">
+  <h3>单词归档</h3>
+  <ul class="archive">
+  {{ range $yi, $year := $words.GroupByDate "2006" }}
+    <li><details{{ if eq $yi 0 }} open{{ end }}><summary><b>{{ $year.Key }}</b> <span class="count">{{ len $year.Pages }}</span></summary>
+      <ul>
+      {{ range $year.Pages.GroupByDate "2006.01" }}
+        <li><details><summary>{{ .Key }} <span class="count">{{ len .Pages }}</span></summary>
+          <ul class="archive-words">
+          {{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.gloss }} <span class="gloss">{{ . }}</span>{{ end }}</li>{{ end }}
+          </ul>
+        </details></li>
+      {{ end }}
+      </ul>
+    </details></li>
+  {{ end }}
+  </ul>
+</div>
+
+<div class="widget">
+  <h3>演讲</h3>
+  <ul class="plain">
+  {{ range where site.RegularPages "Section" "speeches" }}
+    {{ $n := len (where $words "Params.speech" .File.ContentBaseName) }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="count">{{ $n }}</span></li>
+  {{ end }}
+  </ul>
+</div>
+
+<div class="widget">
+  <h3>标签</h3>
+  <p class="tags">
+  {{ range site.Taxonomies.tags.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="count">{{ .Count }}</span> {{ end }}
+  </p>
+</div>

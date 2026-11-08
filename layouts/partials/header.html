@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="brand">
+    <a class="site-title" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+    <span class="site-subtitle">{{ site.Params.subtitle }}</span>
+  </div>
+  <nav class="site-nav">
+  {{ range site.Menus.main }}
+    {{- $url := .URL | relURL -}}
+    {{- $active := or (eq $url $.RelPermalink) (and (ne .Identifier "home") (ne .Identifier "rss") (hasPrefix $.RelPermalink $url)) -}}
+    <a href="{{ $url }}"{{ if $active }} class="active"{{ end }}>{{ .Name }}</a>
+  {{ end }}
+  </nav>
+</header>

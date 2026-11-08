@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div class="entry">
+  <h1>搜索</h1>
+  <form id="search-form" role="search" data-index="{{ (site.Home.OutputFormats.Get "json").RelPermalink }}"><input id="search-input" type="search" placeholder="输入单词或中文释义…" autofocus> <button type="submit">搜索</button></form>
+  <p id="search-status" class="gloss"></p>
+  <ul id="search-results" class="plain"></ul>
+</div>
+{{ end }}

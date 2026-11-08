@@ -3,7 +3,7 @@
 从公开演讲里学单词。每个词一页：释义、原句出处、官方视频时间戳。
 
 - 站点：https://macengine.github.io/small-words/
-- 生成器：[Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题
+- 生成器：[Hugo](https://gohugo.io/)，自写主题（`layouts/` + `assets/`，纯 CSS，样式参考 [笨狗又一窝](https://whusnoopy.github.io/blog/)）
 - 部署：push 到 `main` → GitHub Actions 构建 → GitHub Pages
 
 ## 目录
@@ -11,6 +11,8 @@
 ```
 content/words/<word>.md          # 每词一页
 content/speeches/<speech>.md     # 每篇演讲一页，自动列出收录的词
+layouts/                         # 模板（两栏 + 侧栏归档/演讲/标签）
+assets/css/main.css  assets/js/site.js
 layouts/shortcodes/speech-words.html
 layouts/shortcodes/todo.html
 ```
@@ -18,7 +20,7 @@ layouts/shortcodes/todo.html
 ## 本地预览
 
 ```bash
-git clone --recurse-submodules git@github.com:macEngine/small-words.git
+git clone git@github.com:macEngine/small-words.git
 cd small-words
 hugo server
 ```
